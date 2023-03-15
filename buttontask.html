@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        #card{
+            height: 550px;
+            width: 300px;
+            border: 1px solid;
+            margin: 0px auto;
+            margin-top: 20px;
+            border-radius: 20px;
+            background-color:cyan ;
+        }
+        #img{
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+            border-radius: 50%;
+            margin: 30px 50px 0px 50px;
+            background-image: url(./IMG_1060.jpg);
+            background-size: cover;
+        }
+        #child1{
+            height: 20px;
+            width: 160px;
+            /* border: 1px solid; */
+            margin: 30px 70px 20px 70px;   /*TRBL*/
+            padding-left: 10px;
+        }
+        #child2{
+            height:150px;
+            width: 240px;
+            /* border: 1px solid; */
+
+            margin: 30px;/* TRBL*/
+            /* margin-top: 0px; */
+                /* FOR CENTER  MARGIN 0 AUTO */
+            margin: 0 auto;
+        }
+        #parent{
+            width: 100%;
+            height: 700px;
+            background-color:teal;
+           
+            border: 1px solid;
+        }
+        #nav{
+            padding: 10px ;
+            background-color: white;
+            
+            /* border: 1px solid; */
+
+        }
+        #butfather{
+            height: 60px;
+            width: 400px;
+            margin-left: 850px;
+            margin-top: 20px;
+            /* border: 1px solid; */
+        }
+        div a{
+            padding: 15px 20px;/* trbl*/
+            background-color: tomato;
+            color: black;
+            border-radius: 15px;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <nav id="nav">
+            <div id="butfather">
+            <a href="https://www.google.com/">HOME</a>
+            <a href="https://www.google.com/">CONTACT</a>
+            <a href="https://www.google.com/">ABOUT</a>
+        </div>
+        
+        </nav>
+        <div id="card" >
+            <div id="img"></div>
+            <div id="child1"><b>SUHAS HARI PISE</b></div>
+            <br>
+            <div id="child2">
+               <li>Phn no:- 9145339124</li>
+               <br>
+               <br>
+               <li>Email:-pisesuhas.24@gmail.com</li>
+               <br>
+               <br>
+               <li>Skills:-JAVA, SQL, HTML, CSS </li>
+            </div>
+        </div>
+        
+
+    </div>
+
+    
+</body>
+</html>
